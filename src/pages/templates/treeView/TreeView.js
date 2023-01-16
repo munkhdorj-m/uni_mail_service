@@ -10,16 +10,15 @@ function App() {
   const url = "http://127.0.0.1:8080/mail/template-types";
 
   const fetchToServer = async (data) => {
-    const url = "http://127.0.0.1:8080/mail/template";
-    let toSend = { name: trimmedData };
-    console.log(trimmedData);
-    fetch(url, {
+    const turl = "http://127.0.0.1:8080/mail/template";
+    let toSend = { name: data };
+    console.log(toSend);
+    fetch(turl, {
       method: "POST",
       mode: "cors",
       cache: "no-cache",
       headers: {
         "Content-Type": "application/json",
-        "Access-Control-Allow-Origin": "*",
       },
       body: JSON.stringify(toSend),
     })
@@ -44,7 +43,7 @@ function App() {
   // };
 
   const itemClick = (e) => {
-    fetchToServer(e.e.itemData.name);
+    fetchToServer(e.itemData.name);
     console.log(e.itemData.name);
   };
 
