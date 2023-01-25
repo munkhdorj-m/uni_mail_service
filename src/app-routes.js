@@ -22,10 +22,6 @@ const routes = [
     element: HomePage,
   },
   {
-    path: "/mail",
-    element: MailerPage,
-  },
-  {
     path: "/templates",
     element: Templates,
   },

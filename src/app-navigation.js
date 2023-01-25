@@ -17,10 +17,6 @@ export const navigation = [
         path: "/tasks",
       },
       {
-        text: "Mail",
-        path: "/mail",
-      },
-      {
         text: "Templates",
         path: "/templates",
       },

@@ -1,0 +1,71 @@
+.widget-container {
+  padding: 10px;
+}
+
+.dx-htmleditor-content img {
+  vertical-align: middle;
+  padding-right: 10px;
+}
+
+.dx-htmleditor-content table {
+  width: 50%;
+}
+
+.dx-htmleditor {
+  border-radius: 300px;
+}
+
+.options {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(191, 191, 191, 0.15);
+  margin-top: 20px;
+}
+
+.form-item {
+  width: 200px;
+}
+
+.value-content {
+  padding: 30px;
+  background-color: rgba(191, 191, 191, 0.15);
+  margin-top: 20px;
+}
+
+.options > * {
+  margin: 10px;
+}
+
+.dx-tile {
+  transition: box-shadow 0.3s;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.dx-tile:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+
+.dx-tile-content {
+  font-family: "Lucida Grande", monospace;
+  height: 100%;
+  padding: 4px;
+  position: relative;
+  overflow: auto;
+}
+.templateName {
+  font-weight: bold;
+}
+
+.image {
+  display: flow-root;
+  overflow: hidden;
+  box-sizing: content-box;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+  text-overflow: "ellipsis";
+  white-space: "nowrap";
+  width: auto;
+}
