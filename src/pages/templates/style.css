@@ -1,45 +1,31 @@
 .widget-container {
   padding: 10px;
-}
-
-.dx-htmleditor-content img {
-  vertical-align: middle;
-  padding-right: 10px;
-}
-
-.dx-htmleditor-content table {
-  width: 50%;
-}
-
-.dx-htmleditor {
-  border-radius: 300px;
+  background-color: #eceffc;
 }
 
 .options {
   padding: 20px;
   border-radius: 20px;
-  background-color: rgba(191, 191, 191, 0.15);
+  background-color: rgba(237, 237, 237, 0.593);
   margin-top: 20px;
-}
-
-.form-item {
-  width: 200px;
-}
-
-.value-content {
-  padding: 30px;
-  background-color: rgba(191, 191, 191, 0.15);
-  margin-top: 20px;
+  border: 2px solid #c1c4c8;
 }
 
 .options > * {
   margin: 10px;
 }
 
+.dx-menu-item-text{
+  font-family: 'Arial', sans-serif;
+  font-size: 17px;
+  color: black;
+  padding: 10px;
+}
+
 .dx-tile {
   transition: box-shadow 0.3s;
   border-radius: 10px;
-  border: 1px solid #ccc;
+  border: 2px solid #c1c4c8;
   background: #fff;
 }
 
@@ -49,23 +35,21 @@
 
 .dx-tile-content {
   font-family: "Lucida Grande", monospace;
-  height: 100%;
-  padding: 4px;
-  position: relative;
-  overflow: auto;
+  overflow: hidden;
 }
+
 .templateName {
   font-weight: bold;
 }
 
-.image {
-  display: flow-root;
-  overflow: hidden;
-  box-sizing: content-box;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none; /* Standard syntax */
-  text-overflow: "ellipsis";
-  white-space: "nowrap";
-  width: auto;
+#tileView{
+  padding-top: 30px;
+}
+
+.tile-image {
+  text-align: center;
+  border-radius: 8px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit:cover; 
 }
